@@ -12,7 +12,7 @@ entity design is
     generic(n: integer:= 16);
     Port ( 
 		SW           : in STD_LOGIC_VECTOR (n-1 downto 0);
-		LED          : out STD_LOGIC_VECTOR (n-1 downto 0);                 
+		LED          : out STD_LOGIC_VECTOR (n-1 downto 0)                 
     );
 end design;
 
